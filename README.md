@@ -1,6 +1,6 @@
 # Classificazione URL: Rilevazione di Phishing con Modello CART
 
-Questo progetto analizza un dataset di URL per distinguere siti legittimi da phishing utilizzando un modello di classificazione CART (Classification and Regression Tree).
+Questo progetto analizza un dataset di 235.795 URL (ognuno di essi con 54 features) per distinguere siti legittimi da phishing utilizzando un modello di classificazione CART (Classification and Regression Tree).
 
 ---
 
@@ -19,14 +19,16 @@ La presentazione riporta:
 
 🧪 **2. Notebook Python**
 
-Il notebook contiene:
-- Pulizia e preprocessamento del dataset
-- Estrazione e trasformazione delle feature
-- Analisi esplorativa (EDA)
-- Calcolo della correlazione tra feature e classe
-- Addestramento del modello CART
-- Visualizzazione dei primi livelli dell’albero
-- Valutazione delle performance
+Il notebook contiene il codice relativo a:
+- Caricamento dei dati
+- Definizione del target
+- Rimozione di features superflue/che portano a leakage
+- Split del dataset in tre sub-sets
+- Visualizzazione dei dati in possesso
+- Calcolo delle features più/meno correlate alla classe di output
+- Realizzazione e visualizzazione del CART
+- Valutazione delle performance e dell'accuratezza del modello ottenuto
+- Calcolo dell'importanza delle features più importanti
 
 📊 **3. Cartella “plots”**
 
