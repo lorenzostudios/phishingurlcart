@@ -87,3 +87,7 @@ Progetto realizzato da:
 - Davide Cristallo
 - Lorenzo Rota
 - Thomas Petrò
+
+---
+
+***Fonte dataset: https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset***
