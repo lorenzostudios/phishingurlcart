@@ -30,7 +30,7 @@ Il notebook contiene il codice relativo a:
 - Valutazione delle performance e dell'accuratezza del modello ottenuto
 - Calcolo dell'importanza delle features più importanti
 
-📊 **3. Cartella “plots”**
+📊 **3. Cartella “Plots”**
 
 Qui si trovano tutti i grafici generati dal notebook in formato immagine con relativo numero per il riferimento al notebook Python.
 
